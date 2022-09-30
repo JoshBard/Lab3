@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
   int limit, count = 0;
+  while (limit >= 0){
   do {
   cout << "How tall of a ladder do you need? ";
   cin >> limit;
@@ -19,6 +20,4 @@ int main(){
     else{
       cout << "#  #" << endl;}
     count += 1;
-  }
-  return 0;
-  }
+  }}}
